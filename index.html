@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <div class="turn-container">
+        <h3>Turn For</h3>
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <div class="bg"></div>
+    </div>
+
+    <div class="main-grid">
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+    </div>
+
+    <h2 id="results"> </h2>
+    <button id="play-again">Play Again</button>
+
+    <footer class="footer">
+        <a href="#about" title="About this website" id="about-link"><i class="fas fa-info-circle"></i></a>
+        <a href="https://github.com/rahul-prasad04" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rahul-prasad-78b260324" target="_blank" title="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100085118190153" target="_blank" title="Facebook"><i
+                class="fab fa-facebook"></i></a>
+    </footer>
+
+    <div id="about" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About This Game</h2>
+            <p>This is a simple Tic Tac Toe game created for learning and fun! You can test your skills against an AI.
+                Enjoy the game, and feel free to check out the source code on GitHub.
+                Have fun!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
