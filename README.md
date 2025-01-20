@@ -19,7 +19,7 @@ Tic Tac Toe is a simple and interactive game built using HTML, CSS, and JavaScri
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript.
+- **Frontend**: HTML, CSS, JavaScript.
 - **Libraries**: Font Awesome for icons.
 
 ---
