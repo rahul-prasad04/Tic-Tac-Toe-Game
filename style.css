@@ -1,7 +1,7 @@
 /* General Styling */
 * {
     color: white;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     transition: 0.3s ease-in-out;
     user-select: none;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ header {
     font-size: 1rem;
     text-transform: uppercase;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     height: 70px;
     margin-bottom: 20px;
 }
@@ -53,7 +53,6 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     position: relative;
-
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
@@ -307,3 +306,4 @@ footer:hover {
     transition: background-color 0.3s ease;
 
 }
+
